@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+*{
+    margin: O;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+ body {
+    background: rgb(64,53,3);
+    background-image: linear-gradient(  31deg, rgba(64,53,3,1) 0%, rgba(2,18,32,1) 26%);
+ }
+  
+
+   @keyframes animatebg {
+    0%{
+        background-position:0%
+    }
+
+    50%{
+        background-position:100%
+    }
+
+    100%{
+        background-position:0%
+    }
+    
+   }
+ 
+.header{
+       position: fixed;
+       top:0;
+       left: 0;
+       width: 100%;
+       padding: 20px 10%;
+       background: transparent;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       z-index: 100;
+
+}
+.logo{
+     font-size: 20px;
+    text-decoration: none;
+    color:rgb(226, 218, 218);
+    transform: skew(-5deg);
+ 
+    
+
+}
+
+.navbar a {
+    padding:  15px 25px ;
+    font-size: 18px;
+    text-decoration: none;
+     color: lightgrey;
+    font-weight: 400;
+}
+
+
+.navbar a:hover{
+        color: #ffd700; 
+        text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700; 
+        transition: all 0.3s ease-in-out; 
+        box-shadow: 50%;
+    
+}
+.navbar a:active{
+    color: red;           
+} 
+
+
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    
+
+}
+
+
+.home-content{
+    color: white;
+     max-width: 600px;  
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+.home-content H4{
+    font-size: 30px;
+
+}
+.home-content H1{
+    font-size: 50px;
+}
+
+.home-content H3{
+    font-size: 25px;
+    color:#519cfd;
+    font-weight: 950;
+    cursor: pointer;
+}
+.home-content p{
+    font-size: 25px;
+    cursor: pointer;
+ 
+   
+}
+.home-content h1:hover{
+    color: rgb(196, 196, 196);
+    transition: 0.5s ease-in;
+}
+.navbar a:active{
+    color: blue;
+}
+
+.home-btn{
+    position: absolute;
+    width: 150px;
+    bottom: 40px;
+    color: rgb(224, 64, 64);
+    left: 10.3%;
+}
+
+.home-btn a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    border:3px solid rgb(174, 174, 209);
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(218, 108, 108);
+
+}
+
+.home-btn a:hover{
+    color: #ffd700; 
+    text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700 ; 
+    transition: all 0.3s ease-in-out; 
+      }
+
+      .home-content p:hover{
+        color: lightseagreen;
+        transition: all 0.3s ease-in-out;
+      }
+      
+
+    
